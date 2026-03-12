@@ -1,43 +1,70 @@
-# Hi, I'm Tawsif 👋
-### Engineer | Developer | Learner | Problem Solver
-I'm a software enthusiast who enjoys building practical applications, learning backend systems, and improving through real projects.
+<h1 align="center">Hey there, I'm Tawsif 👋</h1>
+<h3 align="center">Software Engineer • Researcher • Web Developer • Entrepreneur</h3>
 
----
-![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=openjdk)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-green?style=for-the-badge&logo=springboot)
-![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
-![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=I+build+cool+things+with+code;Backend+Developer+%7C+Problem+Solver;Learning%2C+building%2C+improving+every+day;Turning+ideas+into+real+projects" alt="Typing SVG" />
+</p>
 
-## 🛠 Skills & Tools
-**Languages:** Java, JavaScript, Python  
-**Backend:** Spring Boot, Node.js  
-**Frontend:** HTML, CSS, React  
-**Database:** MySQL, PostgreSQL  
-**Tools:** Git, GitHub, Docker, VS Code
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tawsif113&label=Profile%20views&color=0e75b6&style=flat" alt="tawsif113" />
+</p>
 
 ---
 
-## 🔥 What I'm Doing Now
-- Building practical projects
-- Learning clean code and scalable backend systems
-- Improving problem-solving and development workflow
+## 🚀 About Me
+
+- 💻 I love building software that solves real problems
+- 🧠 Interested in backend systems, clean architecture, and modern web development
+- 🔬 Exploring research, engineering, and startup ideas
+- 🌱 Currently learning and improving every single day
+- ⚡ I like turning messy ideas into structured projects
 
 ---
 
-## 📌 Featured Repositories
-- [Repo Name 1](https://github.com/tawsif113/repo1)
-- [Repo Name 2](https://github.com/tawsif113/repo2)
-- [Repo Name 3](https://github.com/tawsif113/repo3)
+## 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=java,spring,js,ts,python,react,nextjs,nodejs,postgres,mysql,mongodb,redis,docker,git,github,linux,vscode,idea" />
+</p>
 
 ---
 
-## 📫 Reach Me
-- Email: tawsifcse113@gmail.com
-- LinkedIn: [tawsifrahman113](www.linkedin.com/in/tawsifrahman113)
+## 🎯 Current Focus
+
+- Building strong portfolio projects
+- Leveling up backend engineering skills
+- Learning system design and scalable architectures
+- Working on ideas that mix software + business + research
+
+---
+
+## 🌟 Featured Projects
+
+> Replace these with your actual repositories
+
+- 🔹 [Project One](https://github.com/tawsif113/project-one) — A short one-line description
+- 🔹 [Project Two](https://github.com/tawsif113/project-two) — A short one-line description
+- 🔹 [Project Three](https://github.com/tawsif113/project-three) — A short one-line description
 
 ---
 
 ## 📊 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=tawsif113&show_icons=true&theme=tokyonight)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tawsif113&layout=compact&theme=tokyonight)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tawsif113&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tawsif113&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=tawsif113&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🧩 A Few Things About Me
+
+```txt
+💡 I enjoy building useful systems
+📚 I like learning by doing
+🛠️ I believe good software is clean, practical, and scalable
+🚀 My goal is to create impactful projects and grow fast
