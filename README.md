@@ -38,15 +38,6 @@
 
 ---
 
-## 🌟 Featured Projects
-
-> Replace these with your actual repositories
-
-- 🔹 [Project One](https://github.com/tawsif113/project-one) — A short one-line description
-- 🔹 [Project Two](https://github.com/tawsif113/project-two) — A short one-line description
-- 🔹 [Project Three](https://github.com/tawsif113/project-three) — A short one-line description
-
----
 
 ## 📊 GitHub Stats
 
