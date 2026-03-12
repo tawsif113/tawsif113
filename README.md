@@ -3,6 +3,10 @@
 I'm a software enthusiast who enjoys building practical applications, learning backend systems, and improving through real projects.
 
 ---
+![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=openjdk)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-green?style=for-the-badge&logo=springboot)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript)
+![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)
 
 ## 🛠 Skills & Tools
 **Languages:** Java, JavaScript, Python  
