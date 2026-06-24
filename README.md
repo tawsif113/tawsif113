@@ -1,45 +1,79 @@
-<h1 align="center">Hey there, I'm Tawsif 👋</h1>
-<h3 align="center">Software Engineer • Researcher • Web Developer • Entrepreneur</h3>
+<h1 align="center">Hey, I'm Tawsif 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C2FF&center=true&vCenter=true&width=700&lines=I+build+cool+things+with+code;Backend+Developer+%7C+Problem+Solver;Learning%2C+building%2C+improving+every+day;Turning+ideas+into+real+projects" alt="Typing SVG" />
+  <strong>Backend Software Engineer · Java · Spring Boot · Distributed Systems</strong>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tawsif113&label=Profile%20views&color=0e75b6&style=flat" alt="tawsif113" />
+  Building reliable backend systems, workflow-heavy platforms, and practical software products.
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00C2FF&center=true&vCenter=true&width=750&lines=Building+reliable+backend+systems;Java+%7C+Spring+Boot+%7C+PostgreSQL+%7C+Redis;Distributed+systems%2C+workflows%2C+and+data+correctness;Turning+messy+business+problems+into+clean+software" alt="Typing SVG" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=tawsif113&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
 </p>
 
 ---
 
-## 🚀 About Me
+## About Me
 
-- 💻 I love building software that solves real problems
-- 🧠 Interested in backend systems, clean architecture, and modern web development
-- 🔬 Exploring research, engineering, and startup ideas
-- 🌱 Currently learning and improving every single day
-- ⚡ I like turning messy ideas into structured projects
+I am a Software Engineer focused on designing backend systems that are practical, maintainable, and reliable under real business workflows.
+
+* Building CRM, ticketing, Kanban, and workflow-driven backend platforms
+* Working primarily with Java, Spring Boot, PostgreSQL, Redis, and RabbitMQ
+* Interested in distributed systems, system design, event-driven architecture, and data correctness
+* Exploring secure, scalable multi-tenant systems and backend architecture patterns
+* Applied machine learning researcher with work in insurance fraud detection
 
 ---
 
-## 🛠️ Tech Stack
+## Core Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,js,ts,python,react,nextjs,nodejs,postgres,mysql,mongodb,redis,docker,git,github,linux,vscode,idea" />
+  <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,rabbitmq,mongodb,docker,gradle,git,github,linux,idea,vscode" />
 </p>
 
----
-
-## 🎯 Current Focus
-
-- Building strong portfolio projects
-- Leveling up backend engineering skills
-- Learning system design and scalable architectures
-- Working on ideas that mix software + business + research
+**Backend:** Java, Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs, OpenAPI/Swagger
+**Data & Messaging:** PostgreSQL, Redis, MongoDB, RabbitMQ, Flyway
+**Engineering:** Docker, Gradle, Git, Linux, JUnit, Mockito
+**Frontend Exposure:** TypeScript, React, Next.js
 
 ---
 
+## What I Build
 
-## 📊 GitHub Stats
+### Multi-Tenant CRM & Ticketing Platforms
+
+Backend services for business workflows involving CRM pipelines, Kanban boards, ticket routing, SLA tracking, KPI reporting, notifications, and access control.
+
+### Reliable Workflow Systems
+
+Systems designed around idempotency, validation, audit trails, status transitions, retries, and safe handling of high-volume operations.
+
+### Event-Driven Backend Experiments
+
+Exploring asynchronous communication, message brokers, transactional reliability, and scalable service boundaries with Java and Spring Boot.
+
+### Applied Machine Learning Research
+
+Research work on machine-learning-based property insurance fraud detection, including preprocessing, feature engineering, classification, and model evaluation.
+
+---
+
+## Current Focus
+
+* Designing cleaner modular backend architectures
+* Deepening system design and distributed-systems knowledge
+* Building production-style portfolio projects with strong engineering depth
+* Improving security, reliability, performance, and data consistency in backend systems
+* Combining backend engineering with practical AI-driven applications
+
+---
+
+## GitHub Stats
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=tawsif113&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -52,10 +86,18 @@
 
 ---
 
-## 🧩 A Few Things About Me
+## Engineering Principles
 
 ```txt
-💡 I enjoy building useful systems
-📚 I like learning by doing
-🛠️ I believe good software is clean, practical, and scalable
-🚀 My goal is to create impactful projects and grow fast
+• Prefer clarity over cleverness
+• Design for correctness before scale
+• Treat business workflows as first-class engineering problems
+• Build systems that are observable, maintainable, and safe to change
+• Learn continuously by shipping real projects
+```
+
+---
+
+<p align="center">
+  <i>Building backend systems that turn complex workflows into dependable software.</i>
+</p>
