@@ -1,103 +1,84 @@
-<h1 align="center">Hey, I'm Tawsif 👋</h1>
+<h1 align="center">Kazi Md. Tawsif Rahman</h1>
 
 <p align="center">
-  <strong>Backend Software Engineer · Java · Spring Boot · Distributed Systems</strong>
+  <strong>Backend Software Engineer · Java & Spring Boot · Applied Security & Privacy Research</strong>
 </p>
 
 <p align="center">
-  Building reliable backend systems, workflow-heavy platforms, and practical software products.
+  I build reliable workflow-heavy backend systems and conduct reproducible research on privacy leakage in machine-learning-based network intrusion detection.
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=00C2FF&center=true&vCenter=true&width=750&lines=Building+reliable+backend+systems;Java+%7C+Spring+Boot+%7C+PostgreSQL+%7C+Redis;Distributed+systems%2C+workflows%2C+and+data+correctness;Turning+messy+business+problems+into+clean+software" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=tawsif113&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
-</p>
-
----
-
-## About Me
-
-I am a Software Engineer focused on designing backend systems that are practical, maintainable, and reliable under real business workflows.
-
-* Building CRM, ticketing, Kanban, and workflow-driven backend platforms
-* Working primarily with Java, Spring Boot, PostgreSQL, Redis, and RabbitMQ
-* Interested in distributed systems, system design, event-driven architecture, and data correctness
-* Exploring secure, scalable multi-tenant systems and backend architecture patterns
-* Applied machine learning researcher with work in insurance fraud detection
-
----
-
-## Core Stack
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,postgres,redis,rabbitmq,mongodb,docker,gradle,git,github,linux,idea,vscode" />
-</p>
-
-**Backend:** Java, Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs, OpenAPI/Swagger
-**Data & Messaging:** PostgreSQL, Redis, MongoDB, RabbitMQ, Flyway
-**Engineering:** Docker, Gradle, Git, Linux, JUnit, Mockito
-**Frontend Exposure:** TypeScript, React, Next.js
-
----
-
-## What I Build
-
-### Multi-Tenant CRM & Ticketing Platforms
-
-Backend services for business workflows involving CRM pipelines, Kanban boards, ticket routing, SLA tracking, KPI reporting, notifications, and access control.
-
-### Reliable Workflow Systems
-
-Systems designed around idempotency, validation, audit trails, status transitions, retries, and safe handling of high-volume operations.
-
-### Event-Driven Backend Experiments
-
-Exploring asynchronous communication, message brokers, transactional reliability, and scalable service boundaries with Java and Spring Boot.
-
-### Applied Machine Learning Research
-
-Research work on machine-learning-based property insurance fraud detection, including preprocessing, feature engineering, classification, and model evaluation.
-
----
-
-## Current Focus
-
-* Designing cleaner modular backend architectures
-* Deepening system design and distributed-systems knowledge
-* Building production-style portfolio projects with strong engineering depth
-* Improving security, reliability, performance, and data consistency in backend systems
-* Combining backend engineering with practical AI-driven applications
-
----
-
-## GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tawsif113&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tawsif113&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=tawsif113&theme=tokyonight&hide_border=true" />
+  <a href="https://research.tawsifrahman.flaro-tech.com">Academic Portfolio</a> ·
+  <a href="https://github.com/tawsif113/Portfolio-v1">Professional Portfolio</a> ·
+  <a href="mailto:tawsifcse113@gmail.com">Email</a>
 </p>
 
 ---
 
-## Engineering Principles
+## About
 
-```txt
-• Prefer clarity over cleverness
-• Design for correctness before scale
-• Treat business workflows as first-class engineering problems
-• Build systems that are observable, maintainable, and safe to change
-• Learn continuously by shipping real projects
-```
+I am a backend software engineer based in Bangladesh, working primarily with Java, Spring Boot, PostgreSQL, Redis, RabbitMQ, and MongoDB. My engineering interests center on dependable business workflows, event-driven systems, data correctness, and maintainable service boundaries.
+
+Alongside software engineering, I am developing a reproducible privacy–utility audit for ML-based network intrusion detection. The study evaluates membership-inference risk and formally accounted DP-SGD while treating Recall and False Negative Rate as first-class IDS outcomes.
+
+## Current focus
+
+- Designing modular backend services with explicit validation, idempotency, audit trails, and failure handling
+- Deepening distributed-systems, system-design, and application-security knowledge
+- Completing the formal DP-SGD privacy-budget sweep and per-model membership-inference audit
+- Preparing for research-oriented graduate study in privacy, security, and trustworthy machine learning
+
+## Selected work
+
+| Project | What it demonstrates | Stack / methods |
+|---|---|---|
+| [Privacy–Utility Auditing of DP-SGD for IDS](https://github.com/tawsif113/privacy-utility-dp-ids) | Locked experimental protocol, shadow-calibrated MIA, explicit privacy accounting, reproducible evidence | Python, PyTorch, Opacus, scikit-learn |
+| [Spring Saga Orchestrator](https://github.com/tawsif113/spring-saga-orchestrator) | Distributed workflow coordination and compensating actions | Java, Spring Boot, event-driven architecture |
+| [NotifyFlow](https://github.com/tawsif113/NotifyFlow-Notification-Latency-Simulator) | Notification delivery, asynchronous processing, and latency-oriented experimentation | Spring Boot, RabbitMQ, Web Push |
+| [Academic Portfolio](https://github.com/tawsif113/Academic-Portfolio) | Research, publications, CV, and evidence-aligned academic narrative | TypeScript, Vite |
+| [Professional Portfolio](https://github.com/tawsif113/Portfolio-v1) | Backend case studies and professional experience | HTML, CSS |
+
+## Research snapshot
+
+My current project asks:
+
+> How does formally accounted DP-SGD affect IDS utility—particularly Recall and FNR—and measurable membership leakage under score-only and label-aware attacks?
+
+Verified milestones:
+
+- Locked NSL-KDD target-train, target-validation, and shadow-pool protocol
+- Five-shadow baseline membership-inference audit completed
+- Strongest evaluated baseline attack near chance at approximately 0.5029 ROC-AUC
+- Opacus DP-SGD feasibility established at epsilon 7.9986 and delta 1.134 × 10^-5
+- Full privacy-budget sweep and DP-model MIA evaluation currently in progress
+
+The feasibility result is not presented as a final privacy–utility conclusion or as evidence that DP-SGD has reduced leakage.
+
+## Publications
+
+1. **An Automated System for Detecting Property Insurance Fraud Using Machine Learning.** International Journal of Mathematical Sciences and Computing, 2024. [Publisher and DOI](https://www.mecs-press.org/ijmsc/ijmsc-v10-n3/v10n3-2.html)
+
+2. **Whistle Blower: An Insurance Awareness Mobile Application with Insurance Policy Selection, Fraud Detection, Critical Help, Complaint Features.** IEEE CSITSS, 2024. [IEEE record](https://ieeexplore.ieee.org/document/10817002/)
+
+## Core technologies
+
+**Backend:** Java, Spring Boot, Spring Security, Spring Data JPA, Hibernate, REST APIs  
+**Data and messaging:** PostgreSQL, Redis, MongoDB, RabbitMQ, Flyway  
+**Architecture:** DDD, CQRS, event-driven services, modular monoliths, microservices  
+**Research:** Python, PyTorch, Opacus, scikit-learn, XGBoost  
+**Engineering:** Docker, Git, Linux, JUnit, Mockito
+
+## Engineering principles
+
+- Prefer explicit behavior over hidden magic
+- Design for correctness before scale
+- Treat business workflows and failure paths as first-class concerns
+- Keep research claims proportional to committed evidence
+- Build systems and experiments that another person can inspect and reproduce
 
 ---
 
 <p align="center">
-  <i>Building backend systems that turn complex workflows into dependable software.</i>
+  <i>Building dependable software and defensible empirical evidence.</i>
 </p>
