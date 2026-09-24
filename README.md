@@ -20,7 +20,7 @@
 
 I am a backend software engineer based in Bangladesh. My primary engineering stack is **Java 25, Spring Boot 4, Spring Security, PostgreSQL, Redis, RabbitMQ, MongoDB, Docker, and Gradle**.
 
-I am most interested in backend problems that go beyond CRUD: **transaction boundaries, idempotency, concurrency, authorization, messaging reliability, observability, DDD/CQRS, and distributed workflows**.
+I am most interested in backend problems that go beyond CRUD: **transaction boundaries, idempotency, concurrency, authorization, messaging reliability, cache resilience, observability, DDD/CQRS, and distributed workflows**.
 
 Alongside software engineering, I work on reproducible research in **privacy-preserving machine learning, network security, and software-testing reliability**.
 
@@ -28,7 +28,7 @@ Alongside software engineering, I work on reproducible research in **privacy-pre
 
 | Project | What it demonstrates | Main stack |
 |---|---|---|
-| [Spring Boot Rescue Lab](https://github.com/tawsif113/spring-boot-rescue-lab) | Five production-style incidents repaired with measurable evidence: N+1 queries, duplicate retries, inventory races, broken object authorization, and lost events | Java 25, Spring Boot 4.1.1, PostgreSQL, RabbitMQ, Redis, Testcontainers, Prometheus |
+| [Spring Boot Rescue Lab](https://github.com/tawsif113/spring-boot-rescue-lab) | Six production-style incidents repaired with measurable evidence: N+1 queries, duplicate retries, inventory races, broken object authorization, lost events, and Redis cache stampedes | Java 25, Spring Boot 4.1.1, PostgreSQL, RabbitMQ, Redis, Testcontainers, Prometheus |
 | [Spring Saga Orchestrator](https://github.com/tawsif113/spring-saga-orchestrator) | Event-driven Saga coordination across order, inventory, and payment services with idempotency and compensation | Java 25, Spring Boot 4, RabbitMQ, MongoDB, Docker |
 | [Academic Portfolio](https://github.com/tawsif113/Academic-Portfolio) | Research-first portfolio containing publications, CV, reproducible evidence, and systems work | TypeScript, Vite |
 | [Loan Proposal Command Service](https://github.com/tanvir70/bits-loan-proposal-commnad) | Pinned collaborative codebase for a DDD-oriented loan-proposal command service | Java 25, Spring Boot 4, Gradle, bits-ddd |
@@ -42,6 +42,7 @@ Instead of another greenfield CRUD application, the lab begins with a deliberate
 - **Concurrency:** atomic stock updates prevent overselling
 - **Authorization:** ownership is enforced below the controller layer
 - **Reliable messaging:** transactional outbox, confirms, retries, DLQ, and consumer deduplication
+- **Cache resilience:** 24 simultaneous cold reads collapse from 24 PostgreSQL loads to 1 with Redis single-flight locking, TTL jitter, and after-commit invalidation
 - **Operability:** correlation IDs, ECS JSON logs, Actuator health probes, Prometheus metrics, Grafana, CI, and Testcontainers
 
 The repository preserves both the fragile baseline and the remediated implementation so the engineering decisions can be inspected rather than merely described.
@@ -94,7 +95,7 @@ The repository includes controlled experiments, manually validated real IDoFT ca
 **Architecture:** DDD, CQRS, Saga, modular monoliths, microservices, event-driven systems, transactional outbox  
 **Data:** PostgreSQL, MongoDB, Redis, Flyway  
 **Messaging:** RabbitMQ, Kafka  
-**Testing & reliability:** JUnit, Mockito, Testcontainers, idempotency, concurrency control, failure-path testing  
+**Testing & reliability:** JUnit, Mockito, Testcontainers, idempotency, concurrency control, cache-stampede suppression, failure-path testing  
 **Observability:** Spring Boot Actuator, Micrometer, Prometheus, Grafana, structured logging  
 **Research:** Python, PyTorch, Opacus, scikit-learn, XGBoost  
 **Engineering:** Docker, Docker Compose, GitHub Actions, Gradle, Linux
