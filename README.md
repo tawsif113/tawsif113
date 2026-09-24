@@ -35,6 +35,9 @@ Alongside software engineering, I work on reproducible research in **privacy-pre
 
 ### Spring Boot Rescue Lab — current flagship backend project
 
+**[▶ Watch the 2:57 engineering walkthrough](https://share.descript.com/view/UE3o6KA6BUO)** · [Source](https://github.com/tawsif113/spring-boot-rescue-lab) · [Incident reports](https://github.com/tawsif113/spring-boot-rescue-lab/tree/main/incidents) · [Architecture](https://github.com/tawsif113/spring-boot-rescue-lab/blob/main/docs/ARCHITECTURE.md)
+
+
 Instead of another greenfield CRUD application, the lab begins with a deliberately fragile order API and fixes failures that resemble real production incidents.
 
 - **SQL performance:** pagination-safe fetching removes the N+1 pattern
